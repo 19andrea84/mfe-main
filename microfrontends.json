@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "mfe-main": {
+      "development": {
+        "fallback": "mfe-main-mu.vercel.app"
+      }
+    },
+    "mfe-secondary": {
+      "routing": [
+        {
+          "paths": ["/secondary"]
+        }
+      ]
+    }
+  }
+}
