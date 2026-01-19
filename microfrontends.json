@@ -9,7 +9,8 @@
     "mfe-secondary": {
       "routing": [
         {
-          "paths": ["/secondary"]
+          "group": "workshop",
+          "paths": ["/secondary", "/checkout", "/myaccount"]
         }
       ]
     }
